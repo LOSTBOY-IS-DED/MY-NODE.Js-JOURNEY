@@ -1,0 +1,9 @@
+what is Node js ?
+
+Node js is a runtime enviroment for javascript
+
+
+Installation of Node.js 
+
+Head over too https://nodejs.org/en 
+node js uses a odd even approach all the even number versions are long term support which is better for production and all the odd numbers are the beta versions which are not stable 
