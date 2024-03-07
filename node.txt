@@ -7,3 +7,10 @@ Installation of Node.js
 
 Head over too https://nodejs.org/en 
 node js uses a odd even approach all the even number versions are long term support which is better for production and all the odd numbers are the beta versions which are not stable 
+
+
+ whenever we start a new project we do npm init to initialize the project this creates a file called package.json
+
+ ---> this is a kind of config file for our project 
+
+ if i add hello script inside package.json and run npm run hello we well get the output

@@ -1,0 +1,12 @@
+{
+  "name": "my-node-js-journey",
+  "version": "1.0.0",
+  "description": "Certainly! Here's a description for your Node.js journey repository on GitHub:",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello" : "node 1.js" 
+  },
+  "author": "",
+  "license": "ISC"
+}
