@@ -4,13 +4,13 @@ const fs = require("fs");
 
 // if i don't learn this properly my whole server can crash 
 
-fs.writeFileSync('./test.txt', 'Hey there');
+// fs.writeFileSync('./test.txt', 'Hey there');
 // sync means this was a synchronous call
 // if we write this program again it will overwrite the file 
 
 
 // async ---> not synchronous
-fs.writeFile('./test.txt',"hello word async" , err => {});
+// fs.writeFile('./test.txt',"hello word async" , err => {});
 
 // so now we learn how to write in the file
 
@@ -29,5 +29,9 @@ fs.readFile("./contact.txt","utf-8",(err, result)=>{
     }
 });
 
+// this second code will give the exact same output 
+// why this will happen i am gonna learn in the next file this is a very important topic 
 
+// how to append the file 
+fs.appendFileSync("./test.txt", `Hey there\n`);
 

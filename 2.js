@@ -16,4 +16,4 @@ function sub(a,b){
 module.exports = {
     add, // we can change the name by addFn : add ,
     sub,
-}
+}  // this is know as multiple export 

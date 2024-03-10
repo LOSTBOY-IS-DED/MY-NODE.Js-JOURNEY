@@ -2,6 +2,7 @@
 // we can use require like we use import in python and #include in c++ 
 
 const func = require('./2')
+
 // ./ is necessary it means current directory 
 // if you don't func this if will try looking for its own built in packages 
 // even after this it wont run lets console.log this 
